@@ -1,0 +1,187 @@
+/*Diseño para todo el documento en terminos generales*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Duración de la transicion del color */
+.navbar {
+  transition: all 1s ease;
+}
+
+.gris {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.75) !important;
+}
+
+/*Decoracion de los ul con clase .nav_links*/
+.nav_links {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*Decoracion de los li*/
+.nav_links li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/*Decoracion de los li a */
+.nav_links li a {
+  text-decoration: none;
+  color: rgba(248, 248, 248, 0.9);
+  transition: all 0.s ease 0s;
+}
+
+/*Decoracion de los li a cuando se pasa por encima el raton*/
+.nav_links li a:hover {
+  text-decoration: none;
+  color: rgba(228, 88, 88, 0.952);
+}
+
+/*Decoracion de i con id redsocial1*/
+#redsocial1{
+  color: rgba(248, 248, 248, 0.9); 
+}
+
+/*Decoracion de i cuando se pasa por encima el raton*/
+#redsocial1:hover{
+  color: rgba(228, 88, 88, 0.952); 
+}
+
+
+/*Primer carusel diseño*/
+.carousel-inner img {
+  width: 100%;
+  max-height: 650px;
+}
+
+.carousel-inner{
+ height: 100%;
+}
+
+
+/*Diseño imagenes del body*/
+.container-fluid .img-thumbail{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+/*Diseño del body*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Decoracion de los ul con clase .nav-link*/
+.nav-link {
+  list-style: none;
+}
+
+.nav-link li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  font-size: 16pt;
+  color: rgba(77, 75, 75, 0.9);
+  transition: all 0.s ease 0s;
+}
+
+.nav-link li a:hover {
+  text-decoration: none;
+  color: rgba(228, 88, 88, 0.952);
+}
+
+
+/*Decoracion de los dl con clase .nav_links*/
+dl dd a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+dl dd a:hover{
+  color: rgba(228, 88, 88, 0.952); 
+}
+
+
+/*Decoracion pie de pagina*/
+#footer1{
+  justify-content: space-evenly;
+}
+
+#contactos{
+  justify-content: space-evenly;
+}
+
+#footerall{
+  background-color: black;
+}
+
+
+/*Diseño iconos pie pagina*/
+#redsocial{
+  color: rgba(230, 230, 230, 0.952); 
+}
+
+#redsocial:hover{
+  color: rgba(228, 88, 88, 0.952); 
+}
+
+/*Diseño cartas*/
+.container{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card{
+  width: 330px;
+  height: 420px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25;
+}
+
+.container .card:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h4 {
+  font-weight: 380;
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 15px;
+  font-weight: 270;
+}
+
+.container .card a{
+  font-weight: 360;
+  text-decoration: none;
+  color: rgba(228, 88, 88, 0.952);
+}
